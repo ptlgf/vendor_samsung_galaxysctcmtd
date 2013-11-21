@@ -16,8 +16,7 @@
 PRODUCT_COPY_FILES := \
     vendor/samsung/galaxysctcmtd/proprietary/libril.so:obj/lib/libril.so \
     vendor/samsung/galaxysctcmtd/proprietary/libsecril-client.so:obj/lib/libsecril-client.so \
-    vendor/samsung/galaxysctcmtd/proprietary/libsec-ril40.so:system/lib/libsec-ril40.so \
-#    vendor/samsung/galaxysctcmtd/proprietary/modem.bin:modem.bin
+    vendor/samsung/galaxysctcmtd/proprietary/libsec-ril40.so:system/lib/libsec-ril40.so
 
 
 # All the blobs necessary for galaxys devices
@@ -29,10 +28,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysctcmtd/proprietary/Certification.cer:system/vendor/bin/Certification.cer \
     vendor/samsung/galaxysctcmtd/proprietary/libril.so:system/lib/libril.so \
     vendor/samsung/galaxysctcmtd/proprietary/libsecril-client.so:system/lib/libsecril-client.so \
- #   vendor/samsung/galaxysctcmtd/proprietary/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/galaxysctcmtd/proprietary/rild:system/bin/rild \
     vendor/samsung/galaxysctcmtd/proprietary/pppd_runner:system/bin/pppd_runner \
-
     vendor/samsung/aries-common/proprietary/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so \
     vendor/samsung/aries-common/proprietary/orientationd:system/vendor/bin/orientationd \
     vendor/samsung/aries-common/proprietary/geomagneticd:system/vendor/bin/geomagneticd

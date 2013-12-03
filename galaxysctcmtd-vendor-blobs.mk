@@ -16,7 +16,7 @@
 PRODUCT_COPY_FILES := \
     vendor/samsung/galaxysctcmtd/proprietary/libril.so:obj/lib/libril.so \
     vendor/samsung/galaxysctcmtd/proprietary/libsecril-client.so:obj/lib/libsecril-client.so \
-    vendor/samsung/galaxysctcmtd/proprietary/libsec-ril40.so:system/lib/libsec-ril40.so
+    vendor/samsung/galaxysctcmtd/proprietary/libsec-ril-cdma.so:system/lib/libsec-ril-cdma.so
 
 
 # All the blobs necessary for galaxys devices
